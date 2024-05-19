@@ -13,7 +13,7 @@
       "lemoni\\sarook\\cor": "lemoni/sarook/core/"
     },
     "files": [
-      "lemoni/sarook/application/function.php",
+      "lemoni/sarook/application/initial/function.php",
       "lemoni/sarook/core/function.php"
     ]
   },
