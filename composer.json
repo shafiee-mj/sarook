@@ -1,16 +1,21 @@
 {
-    "name": "lemoni/sarook",
-    "description": "A powerful PHP framework (MVC), developed in Lemoni (https://lemoni.ir)",
-    "autoload": {
-        "psr-4": {
-            "Lemoni\\Sarook\\": "src/"
-        }
+  "name": "lemoni/sarook",
+  "description": "A powerful PHP framework (MVC), developed in Lemoni (https://lemoni.ir)",
+  "authors": [
+    {
+      "name": "Majjad Shafiee",
+      "email": "info@shafiee.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "lemoni\\sarook\\app": "lemoni/sarook/application/",
+      "lemoni\\sarook\\cor": "lemoni/sarook/core/"
     },
-    "authors": [
-        {
-            "name": "Majjad Shafiee",
-            "email": "info@shafiee.me"
-        }
-    ],
-    "require": {}
+    "files": [
+      "lemoni/sarook/application/function.php",
+      "lemoni/sarook/core/function.php"
+    ]
+  },
+  "require": {}
 }
