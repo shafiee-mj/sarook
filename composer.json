@@ -20,9 +20,11 @@
     ]
   },
   "scripts": {
+    "pre-install-cmd": [
+      "php cmd/post_install.php"
+    ],
     "post-install-cmd": [
-      "php cmd/post_install.php",
-      "php cmd/post_install2.php"
+      "php cmd/post_install.php"
     ],
     "post-update-cmd": [
       "php cmd/post_update.php"
