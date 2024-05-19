@@ -17,5 +17,13 @@
       "lemoni/sarook/core/function.php"
     ]
   },
+  "scripts": {
+    "post-install-cmd": [
+      "php -r \"symlink('lemoni', 'sarook');\""
+    ],
+    "post-update-cmd": [
+      "php -r \"symlink('lemoni', 'sarook');\""
+    ]
+  },
   "require": {}
 }
