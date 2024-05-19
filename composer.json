@@ -21,10 +21,10 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "php -r \"symlink('lemoni', 'sarook');\""
+      "php -r \"symlink('basic/', '../szx');\""
     ],
     "post-update-cmd": [
-      "php -r \"symlink('lemoni', 'sarook');\""
+      "php -r \"symlink('basic/', '../szx');\""
     ]
   },
   "require": {}
