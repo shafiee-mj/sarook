@@ -1,6 +1,8 @@
 {
   "name": "lemoni/sarook",
   "description": "A powerful PHP framework (MVC), developed in Lemoni (https://lemoni.ir)",
+  "type": "project",
+  "license": "MIT",
   "authors": [
     {
       "name": "Majjad Shafiee",
