@@ -21,10 +21,10 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "php -r \"symlink('basic/', '../szx');\""
+      "php cmd/post_install.php"
     ],
     "post-update-cmd": [
-      "php -r \"symlink('basic/', '../szx');\""
+      "php cmd/post_update.php"
     ]
   },
   "require": {}
