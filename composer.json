@@ -9,8 +9,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "lemoni\\sarook\\app": "lemoni/sarook/application/",
-      "lemoni\\sarook\\cor": "lemoni/sarook/core/"
+      "lemoni\\sarook\\app\\": "lemoni/sarook/application/",
+      "lemoni\\sarook\\cor\\": "lemoni/sarook/core/"
     },
     "files": [
       "lemoni/sarook/application/initial/function.php",
