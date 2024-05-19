@@ -1,0 +1,16 @@
+{
+    "name": "lemoni/sarook",
+    "description": "A powerful PHP framework (MVC), developed in Lemoni (https://lemoni.ir)",
+    "autoload": {
+        "psr-4": {
+            "Lemoni\\Sarook\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Majjad Shafiee",
+            "email": "info@shafiee.me"
+        }
+    ],
+    "require": {}
+}
