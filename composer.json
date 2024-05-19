@@ -21,7 +21,8 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "php cmd/post_install.php"
+      "php cmd/post_install.php",
+      "php cmd/post_install2.php"
     ],
     "post-update-cmd": [
       "php cmd/post_update.php"
