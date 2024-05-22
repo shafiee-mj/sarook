@@ -6,7 +6,8 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "lemoni\\sarook\\": "src/"
+      "app\\": "lemoni/sarook/application/",
+      "cor\\": "lemoni/sarook/core/"
     }
   },
   "authors": [
@@ -15,6 +16,9 @@
       "email": "info@shafiee.me"
     }
   ],
-  "require": {},
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.16",
+    "phpmailer/phpmailer": "^6.3"
+  },
   "scripts": {}
 }

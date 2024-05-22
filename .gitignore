@@ -1,2 +1,3 @@
 /vendor/
 /src/application/development/local/
+/src/application/configs/databases.php
