@@ -1,34 +1,22 @@
 {
   "name": "lemoni/sarook",
-  "description": "A powerful PHP framework (MVC), developed in Lemoni (https://lemoni.ir)",
   "type": "project",
-  "license": "MIT",
+  "description": "A powerful PHP framework (MVC), developed in Lemoni (https://lemoni.ir)",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Lemoni\\Sarook\\": "sarook/"
+    }
+  },
   "authors": [
     {
       "name": "Majjad Shafiee",
       "email": "info@shafiee.me"
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "lemoni\\sarook\\app\\": "lemoni/sarook/application/",
-      "lemoni\\sarook\\cor\\": "lemoni/sarook/core/"
-    },
-    "files": [
-      "lemoni/sarook/application/initial/function.php",
-      "lemoni/sarook/core/function.php"
-    ]
-  },
+  "require": {},
   "scripts": {
-    "pre-install-cmd": [
-      "php cmd/post_install.php"
-    ],
-    "post-install-cmd": [
-      "php cmd/post_install.php"
-    ],
-    "post-update-cmd": [
-      "php cmd/post_update.php"
-    ]
-  },
-  "require": {}
+    "post-install-cmd": [],
+    "post-update-cmd": []
+  }
 }
