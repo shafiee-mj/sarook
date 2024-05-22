@@ -3,6 +3,11 @@
 namespace Lemoni\Sarook;
 class cmd
 {
+    public static function post_update()
+    {
+        self::post_install();;
+    }
+
     public static function post_install()
     {
         $target_dir = __DIR__ . '/target';
