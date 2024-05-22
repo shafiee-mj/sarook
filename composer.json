@@ -6,8 +6,8 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "app\\": "lemoni/sarook/application/",
-      "cor\\": "lemoni/sarook/core/"
+      "lemoni\\sarook\\app\\": "application/",
+      "lemoni\\sarook\\cor\\": "core/"
     }
   },
   "authors": [
