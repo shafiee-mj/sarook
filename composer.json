@@ -21,7 +21,6 @@
     ],
     "post-update-cmd": [
       "Lemoni\\Sarook\\cmd::post_update"
-    ],
-
+    ]
   }
 }
