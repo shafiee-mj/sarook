@@ -1,0 +1,20 @@
+{
+  "name": "lemoni/sarook",
+  "type": "project",
+  "description": "A powerful PHP framework (MVC), developed in Lemoni (https://lemoni.ir)",
+  "license": "Apache-2.0",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "lemoni\\sarook\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Majjad Shafiee",
+      "email": "info@shafiee.me"
+    }
+  ],
+  "require": {},
+  "scripts": {}
+}
