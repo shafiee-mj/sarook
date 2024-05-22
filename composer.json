@@ -17,7 +17,7 @@
   "require": {},
   "scripts": {
     "post-install-cmd": [
-      "php post-install.php"
+      "Lemoni\\Sarook\\cmd::post_install()"
     ]
   }
 }
