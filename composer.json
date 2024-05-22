@@ -18,6 +18,10 @@
   "scripts": {
     "post-install-cmd": [
       "Lemoni\\Sarook\\cmd::post_install"
-    ]
+    ],
+    "post-update-cmd": [
+      "Lemoni\\Sarook\\cmd::post_update"
+    ],
+
   }
 }
